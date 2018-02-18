@@ -82,7 +82,7 @@ export class AppProfile {
             </p>
 
             {this.swSupport ? <ion-item>
-              <ion-label>Notifications</ion-label>
+              <ion-label>Notifications!!</ion-label>
               <ion-toggle checked={this.notify} disabled={this.notify}></ion-toggle>
             </ion-item> : null}
           </ion-content>
